@@ -44,7 +44,7 @@ NSInteger const kSecondCustomCellRowHeight = 85;
 }
 
 
-#pragma mark - UITableView DataSource/Delegate Method
+#pragma mark - UITableView DataSource/Delegate
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     return kRowCount;
 }

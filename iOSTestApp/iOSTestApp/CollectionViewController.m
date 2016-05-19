@@ -22,6 +22,8 @@ NSString * const kSampleImageURLString = @"https://placeholdit.imgix.net/~text?t
     return kItemCount;
 }
 
+#pragma mark - Collection View Delegate Method.
+
 - (CustomCollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
     
     static NSString *cellIdentifier = @"customCell";

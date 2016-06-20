@@ -25,6 +25,7 @@
 
 @end
 
+#pragma mark - Constants
 NSInteger const kRowCount = 5;
 NSInteger const kFirstCustomCellRowHeight = 62;
 NSInteger const kSecondCustomCellRowHeight = 85;
